@@ -1,0 +1,22 @@
+title: 'gatsby-starter-yaml-homepage'
+
+socialLinks:
+  facebook: a
+  instagram: b
+  twitter: c
+
+copyright: © 2022 gatsby-starter-yaml-homepage Inc. All rights reserved
+
+meta: 
+  - id: 1 
+    href: urlToTerms
+    text: 'Terminos y condiciones'
+  - id: 2
+    href: urlToPrivacy
+    text: 'Politica de privacidad'
+
+logo: 
+  name: 'logo'
+  alt: 'gatsby-starter-yaml-homepage logo'
+
+description: A Generic Landing builder, built with gatsby.

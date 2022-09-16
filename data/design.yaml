@@ -1,0 +1,17 @@
+# background: radial-gradient(circle, rgba(150,32,122,1) 0%, rgba(62,21,62,1) 50%, rgba(10,6,71,1) 100%)
+# navBackground: "rgba(10,6,71,1)"
+# backgroundMuted: linear-gradient(45deg, rgba(31,22,82,1) 0%, rgba(68,35,72,1) 63%, rgba(58,38,73,1) 100%)
+# blockBackground: linear-gradient(45deg, rgba(31,22,82,1) 0%, rgba(68,35,72,1) 63%, rgba(58,38,73,1) 100%)
+# reversedBackground: "#5d1952"
+# reversedTextColor: "white"
+# ContentTextColor: white
+# primary: "#124ece"
+# muted: "#3c2649"
+# active: "#1d4496"
+# black: "#000"
+
+secondary: white
+primary: "#004ca3"
+muted: "#f5fcff"
+active: "#001d3d"
+black: "#000"

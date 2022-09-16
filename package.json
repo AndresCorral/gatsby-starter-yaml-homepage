@@ -1,0 +1,60 @@
+{
+  "name": "gatsby-starter-yaml-homepage",
+  "version": "1.0.0",
+  "private": true,
+  "description": "landings template",
+  "author": "Oscar Cruz",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@fontsource/dm-mono": "^4.5.4",
+    "@fontsource/dm-sans": "^4.5.3",
+    "@vanilla-extract/babel-plugin": "^1.1.7",
+    "@vanilla-extract/css": "^1.7.3",
+    "@vanilla-extract/css-utils": "^0.1.2",
+    "@vanilla-extract/webpack-plugin": "^2.1.12",
+    "babel-plugin-styled-components": "^2.0.5",
+    "gatsby": "^4.8.0",
+    "gatsby-plugin-alias-imports": "^1.0.5",
+    "gatsby-plugin-image": "^2.8.0",
+    "gatsby-plugin-manifest": "^4.23.0",
+    "gatsby-plugin-sass": "^5.8.0",
+    "gatsby-plugin-sharp": "^4.8.0",
+    "gatsby-plugin-sitemap": "^5.8.0",
+    "gatsby-plugin-styled-components": "^5.8.0",
+    "gatsby-plugin-vanilla-extract": "^2.0.1",
+    "gatsby-source-filesystem": "^4.8.0",
+    "gatsby-transformer-sharp": "^4.8.0",
+    "is-absolute-url": "^4.0.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-feather": "^2.0.10",
+    "react-gtm-module": "^2.0.11",
+    "ts-node": "^10.5.0"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.14",
+    "@types/react": "^17.0.38",
+    "@types/react-dom": "^17.0.11",
+    "@typescript-eslint/eslint-plugin": "^5.12.1",
+    "@typescript-eslint/parser": "^5.12.1",
+    "eslint": "^7.5.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-import-resolver-typescript": "^2.5.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-react": "^7.28.0",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "typescript": "^4.5.5",
+    "typescript-plugin-css-modules": "^3.4.0"
+  }
+}

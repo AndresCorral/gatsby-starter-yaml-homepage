@@ -1,0 +1,298 @@
+cta:
+    href: "#!"
+    text: "Sign up"
+
+menu:
+  - id: "1"
+    href: "#products"
+    text: "Products"
+  - id: "2"
+    href: "#!"
+    text: "Pricing"
+  - id: "3"
+    href: "#!"
+    text: "About"
+
+#  types  'Hero' | 'FeatureList' | 'LogoList' | 'BenefitList'  | 'TestimonialList'  | 'StatList'  | 'Cta'  | 'ProductList'  | 'AboutHero'  | 'AboutStatList'  | 'AboutLeadership'  | 'AboutLogoList' 
+blocks: 
+  - id: 1
+    type: 'Hero'
+    data: 
+      image: 
+        alt: gatsby-starter-yaml-homepage, tu solución en landings
+        name: heroImage
+      kicker: GATSBY + WORDPRESS
+      h1: Gatsby WordPress 
+      subhead: Homepage Starter
+      text: Clone, deploy, edit, and customize this starter to build your own homepage
+      links:
+        - id: 1
+          href: "#!"
+          text: Deploy now
+        - id: 2
+          href: "#!"
+          text: Github
+  - id: 2
+    type: 'LogoList'
+    data: 
+      text: Join other industry-leading organizations pushing boundaries with Gatsby
+      logos: 
+        - id: 1
+          alt: 'Chattr'
+          name: 'Chattr'
+        - id: 2
+          alt: 'Circuitz'
+          name: 'Circuitz'
+        - id: 3
+          alt: 'Deezii'
+          name: 'Deezii'
+        - id: 4
+          alt: 'Foobank'
+          name: 'Foobank'
+        - id: 5
+          alt: 'Funtendo'
+          name: 'Funtendo'
+  - id: 3
+    type: 'ProductList'
+    data: 
+      kicker: PRODUCT LIST
+      heading: The all-in-one solution
+      text: Lorem ipsum dolor sit amet      
+      products: 
+        - id: 1
+          heading: SuperApp 
+          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          image:
+            alt: 'SuperApp'
+            name: 'storm-icon'
+          links: 
+            - id: 1
+              href: "#!"
+              text: Product link
+            - id: 2
+              href: "#!"
+              text: Product link 2
+        - id: 2
+          heading: AcmeTracc
+          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          image:
+            alt: 'SuperApp'
+            name: 'pulse-icon'
+          links: 
+            - id: 1
+              href: "#!"
+              text: Product link
+            - id: 2
+              href: "#!"
+              text: Product link 2
+        - id: 3
+          heading: HiperMarket
+          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          image:
+            alt: 'SuperApp'
+            name: 'umbrella-icon'
+  - id: 4
+    type: 'FeatureList'
+    elementId: 'products'
+    data: 
+      kicker: FEATURE LIST
+      heading: Batteries Included
+      text: Lorem ipsum dolor sit amet
+      features:
+        - id: 1
+          image: 
+            alt: 'Modular'
+            name: 'Developer-Laptop'
+          kicker: FEATURE
+          heading: Modular
+          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          links:
+            - id: 1
+              href: "#!"
+              text: Deploy now
+        - id: 2
+          image: 
+            alt: 'Extensible'
+            name: 'VR-users-x2'
+          kicker: FEATURE
+          heading: Extensible
+          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          links:
+            - id: 1
+              href: "#!"
+              text: Deploy now
+  - id: 5
+    type: 'AboutHero'
+    data: 
+      heading: About Hero
+      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      image: 
+        alt: gatsby-starter-yaml-homepage, tu solución en landings
+        name: aboutHero
+  - id: 6
+    type: 'AboutLeadership'
+    data:
+      kicker: About Leadership
+      heading: About Leadership Header
+      subhead: Subheading content
+      profiles: 
+        - id: 1
+          name: Oscar Cruz
+          jobTitle: CTO
+          image:
+            alt: 'Profile1'
+            name: 'Avatar'
+        - id: 2
+          name: Andres Corral
+          jobTitle: COO
+          image:
+            alt: 'Profile2'
+            name: 'Avatar'
+        - id: 3
+          name: Pablo Holguin
+          jobTitle: CMO
+          image:
+            alt: 'Profile2'
+            name: 'Avatar'
+  - id: 7
+    type: 'AboutLogoList'
+    data: 
+      heading: About Logo list
+      logos: 
+        - id: 1
+          alt: 'Chattr'
+          name: 'Chattr'
+        - id: 2
+          alt: 'Circuitz'
+          name: 'Circuitz'
+        - id: 3
+          alt: 'Deezii'
+          name: 'Deezii'
+        - id: 4
+          alt: 'Foobank'
+          name: 'Foobank'
+        - id: 5
+          alt: 'Funtendo'
+          name: 'Funtendo'
+      links:
+        - id: 1
+          href: "#!"
+          text: Deploy now
+        - id: 2
+          href: "#!"
+          text: Deploy now
+  - id: 8
+    type: 'StatsList'
+    data: 
+      heading: Finish your feature sprints blazingly fast
+      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Deploy Now
+      kicker: Stats list
+      stats: 
+        - id: 1
+          value: 100%
+          label: Satisfaction
+        - id: 2
+          value: 200%
+          label: Power
+        - id: 3
+          value: 30K
+          label: Happy clients
+      links:
+        - id: 1
+          href: "#!"
+          text: Deploy now
+        - id: 2
+          href: "#!"
+          text: Deploy now
+      image: 
+        alt: runner
+        name: 'Runner-crap'
+      icon: 
+        alt: storm
+        name: 'storm-icon'  
+  - id: 9
+    type: 'BenefitList'
+    data: 
+      heading: Get started in minutes and make it your own
+      text: Benefit list
+      benefits:
+        - id: 1
+          image: 
+            alt: Never pay for a homepage again
+            name: pusle-icon-small
+          heading: Never pay for a homepage again
+          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        - id: 2
+          image: 
+            alt: Automate everything
+            name: 'umbrella-icon-small'
+          heading: Automate everything
+          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        - id: 3
+          image: 
+            alt: Zero downtime
+            name: 'film-icon-small'
+          heading:  Zero downtime
+          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  - id: 10
+    type: 'AboutStatsList'
+    data: 
+      heading: Owr metrics
+      text: Stats list
+      stats: 
+        - id: 1
+          value: 100%
+          label: Satisfaction
+        - id: 2
+          value: 200%
+          label: Power
+        - id: 3
+          value: 30K
+          label: Happy clients
+  - id: 11
+    type: 'TestimonialList'
+    data: 
+      heading: See what others have to say about us
+      kicker: Testimonial List
+      testimonials:
+        - id: 1
+          quote: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          source: Company Inc.
+          avatar:
+            alt: avatar
+            name: Avatar
+        - id: 2
+          quote: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          source: Company Inc.
+          avatar:
+            alt: avatar
+            name: Avatar
+        - id: 3
+          quote: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          source: Company Inc.
+          avatar:
+            alt: avatar
+            name: Avatar
+        - id: 4
+          quote: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          source: Company Inc.
+          avatar:
+            alt: avatar
+            name: Avatar
+  - id: 12
+    type: 'Cta'
+    data: 
+      heading: Dive in now
+      kicker: CTA
+      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      links:
+        - id: 1
+          href: "#!"
+          text: Deploy now
+        - id: 2
+          href: "#!"
+          text: Deploy now
+      image: 
+        alt: CTA
+        name: 'cta'
+
